@@ -1,0 +1,56 @@
+RNA-Seq QC report
+-----------------------------------
+
+>>>>>>> Input
+
+    bam file = /courses/BINF6430.202530/data/ReaganData/aligned_gencode/rseqc_merged/M1SA_D711_D504_S17_merged.Aligned.sortedByCoord.out.bam
+    gff file = /courses/BINF6430.202530/shared/gencode/gencode.v46.annotation.gtf
+    counting algorithm = uniquely-mapped-reads
+    protocol = strand-specific-reverse
+    5'-3' bias region size = 100
+    5'-3' bias number of top transcripts = 1000
+
+
+>>>>>>> Reads alignment
+
+    reads aligned (left/right) = 10,817,621 / 10,817,621
+    read pairs aligned  = 10,817,621
+    total alignments = 46,999,846
+    secondary alignments = 25,364,604
+    non-unique alignments = 16,377,252
+    aligned to genes  = 10,086,536
+    ambiguous alignments = 766,032
+    no feature assigned = 4,616,062
+    not aligned = 966,182
+
+
+>>>>>>> Reads genomic origin
+
+    exonic =  10,086,536 (68.6%)
+    intronic = 4,198,254 (28.55%)
+    intergenic = 417,808 (2.84%)
+    overlapping exon = 1,410,492 (9.59%)
+
+
+>>>>>>> Transcript coverage profile
+
+    5' bias = 0.81
+    3' bias = 0.73
+    5'-3' bias = 1.09
+
+
+>>>>>>> Junction analysis
+
+    reads at junctions = 4,657,023
+
+    ACCT : 5.2%
+    AGGT : 5.09%
+    AGGA : 3.89%
+    TCCT : 3.49%
+    AGCT : 3.11%
+    ATCT : 2.92%
+    AGGC : 2.63%
+    GCCT : 2.55%
+    AGGG : 2.4%
+    AGAT : 2.26%
+    AGAA : 2.07%
